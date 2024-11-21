@@ -1,0 +1,122 @@
+
+.PaginaInicial  {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    min-height: 100%;
+    background-size: cover;
+    background-image: url(fundo-de-graos-de-pipoca_996135-223_Easy-Resize.com_.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+}
+
+.retangulo {
+    width: 90%;
+    height: 70px;
+    max-width: 700px;
+    background-color: rgba(231, 221, 221, 0.65);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.seta {
+    width: 65;
+    height: 65;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 1248px;
+    position: absolute;
+
+}
+.voltarMenu{
+    width: 65;
+    height: 65;
+    margin-top: 660px;
+    margin-left: 80px;
+    position: absolute;
+
+    
+}
+.retangulo p {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.rotuloFilme {
+    position: absolute;
+    left: 45px;
+    top: 62px;
+    width: 610px;
+    height: 138px;
+    border-radius: 0px;
+}
+
+.Filme {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #254359;
+}
+
+.ImgIrlandes {
+    position: absolute;
+    left: 28px;
+    top: 239px;
+    width: 644px;
+    height: 429px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.DescricaoFilme {
+
+    position: absolute;
+    left: 699px;
+    top: 20px;
+    width: 642px;
+    height: 418px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+    margin: 0;
+    text-align: justify;
+    color: rgba(231, 227, 227, 1);
+    text-transform: none;
+    font-size: 24px;
+    caret-color: rgba(231, 227, 227, 1);
+    text-decoration: none;
+    font-weight: 400;
+    line-break: auto;
+    font-family: "sourcesanspro";
+}
+
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
+}
