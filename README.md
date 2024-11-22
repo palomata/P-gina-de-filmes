@@ -1,2 +1,2 @@
 # Página-de-filmes
-Atividade desenvolvida com alunos do curso de ads para trabakhar css e html.
+Atividade desenvolvida com alunos do curso de ads para trabalhar css e html.
